@@ -5,4 +5,24 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ChargeurExamen.cs" />
+    <Compile Remove="EnteteExamen.cs" />
+    <Compile Remove="Examen.cs" />
+    <Compile Remove="Examen1.cs" />
+    <Compile Remove="Examen2.cs" />
+    <Compile Remove="JPA.cs" />
+    <Compile Remove="JPAConsole.cs" />
+    <Compile Remove="JPAException.cs" />
+    <Compile Remove="Profil.cs" />
+    <Compile Remove="Question.cs" />
+    <Compile Remove="QuestionVraiFaux.cs" />
+    <Compile Remove="Reponse.cs" />
+    <Compile Remove="Resultat.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\exam_po\exam_po.csproj" />
+  </ItemGroup>
+
 </Project>
